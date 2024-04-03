@@ -314,7 +314,6 @@ class Penguin1(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin2(Penguin):
 	def __init__(self):
 		super().__init__()
@@ -323,12 +322,10 @@ class Penguin3(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin4(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin5(Penguin):
 	def __init__(self):
 		super().__init__()
@@ -337,12 +334,10 @@ class Penguin6(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin7(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin8(Penguin):
 	def __init__(self):
 		super().__init__()
@@ -359,37 +354,30 @@ class Penguin11(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin12(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin13(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin14(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin15(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin16(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin17(Penguin):
 	def __init__(self):
 		super().__init__()
 		
-
 class Penguin18(Penguin):
 	def __init__(self):
 		super().__init__()
@@ -404,7 +392,6 @@ class Penguin20(Penguin):
 		super().__init__()
 		
 
-	
 class Bell1(pygame.sprite.Sprite):
 
 	def __init__(self):
@@ -442,8 +429,6 @@ def show_go_screen():
 	draw_text1(screen, "Arrow Practise", 65, WIDTH // 2, HEIGHT // 4)
 	draw_text1(screen, "Shoot the bells", 20, WIDTH // 2, HEIGHT // 2)
 	draw_text1(screen, "Press Q", 20, WIDTH // 2, HEIGHT * 3/4)
-	
-	
 	
 	pygame.display.flip()
 	waiting = True
@@ -774,6 +759,8 @@ while running:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			running = False
+			pygame.quit()
+			sys.exit()
 
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_e:
@@ -991,10 +978,48 @@ while running:
 
 	draw_hp_bar(screen, 1015, 5, player4.hp)
 	draw_text2(screen, str(int(player4.hp))+ "/100", 10, 1070, 6)
+
+	if penguin1.hp > 0:
+		draw_hp_bar(screen, penguin1.rect.x, penguin1.rect.y, penguin1.hp)
+	if penguin2.hp > 0:
+		draw_hp_bar(screen, penguin2.rect.x, penguin2.rect.y, penguin2.hp)
+	if penguin3.hp > 0:
+		draw_hp_bar(screen, penguin3.rect.x, penguin3.rect.y, penguin3.hp)
+	if penguin4.hp > 0:
+		draw_hp_bar(screen, penguin4.rect.x, penguin4.rect.y, penguin4.hp)
+	if penguin5.hp > 0:
+		draw_hp_bar(screen, penguin5.rect.x, penguin5.rect.y, penguin5.hp)
+	if penguin6.hp > 0:
+		draw_hp_bar(screen, penguin6.rect.x, penguin6.rect.y, penguin6.hp)
+	if penguin7.hp > 0:
+		draw_hp_bar(screen, penguin7.rect.x, penguin7.rect.y, penguin7.hp)
+	if penguin8.hp > 0:
+		draw_hp_bar(screen, penguin8.rect.x, penguin8.rect.y, penguin8.hp)
+	if penguin9.hp > 0:
+		draw_hp_bar(screen, penguin9.rect.x, penguin9.rect.y, penguin9.hp)
+	if penguin10.hp > 0:
+		draw_hp_bar(screen, penguin10.rect.x, penguin10.rect.y, penguin10.hp)
+	if penguin11.hp > 0:
+		draw_hp_bar(screen, penguin11.rect.x, penguin11.rect.y, penguin11.hp)
+	if penguin12.hp > 0:
+		draw_hp_bar(screen, penguin12.rect.x, penguin12.rect.y, penguin12.hp)
+	if penguin13.hp > 0:
+		draw_hp_bar(screen, penguin13.rect.x, penguin13.rect.y, penguin13.hp)
+	if penguin14.hp > 0:
+		draw_hp_bar(screen, penguin14.rect.x, penguin14.rect.y, penguin14.hp)
+	if penguin15.hp > 0:
+		draw_hp_bar(screen, penguin15.rect.x, penguin15.rect.y, penguin15.hp)
+	if penguin16.hp > 0:
+		draw_hp_bar(screen, penguin16.rect.x, penguin16.rect.y, penguin16.hp)
+	if penguin17.hp > 0:
+		draw_hp_bar(screen, penguin17.rect.x, penguin17.rect.y, penguin17.hp)
+	if penguin18.hp > 0:
+		draw_hp_bar(screen, penguin18.rect.x, penguin18.rect.y, penguin18.hp)
+	if penguin19.hp > 0:
+		draw_hp_bar(screen, penguin19.rect.x, penguin19.rect.y, penguin19.hp)
 	
 	#reloj
 	draw_text1(screen, str((((pygame.time.get_ticks() - start_time)//60000)+(60))%(60))+":" + str((((pygame.time.get_ticks() - start_time)//1000)+(60))%(60)), 30, 570, 50)
 		
-
 	pygame.display.flip()
 pygame.quit()
