@@ -275,15 +275,20 @@ class Penguin(pygame.sprite.Sprite):
 		self.rect = self.image.get_rect()
 		self.rect.x = random.randrange(300,1000)
 		self.rect.y = random.randrange(200,650)
-		self.speedx = 0
-		self.speedy = 0
+		self.speedx = randint(-1,1)
+		self.speedy = randint(-1,1)
 		self.hp = 100
+		self.a = randint(1000,3000)
+		self.b = randint(1000,3000)
+		self.counter1 = True
+		self.counter2 = False
+		self.counter3 = False
+		self.start_time = pygame.time.get_ticks()
 		
 	def update(self):
-		anow = pygame.time.get_ticks()
-		alist = [-2,2]
-		counter1 = True
-		counter2 = False
+		current_time = pygame.time.get_ticks()
+		elapsed_time = current_time - self.start_time
+		alist = [-1,1]
 		self.rect.x += self.speedx
 		self.rect.y += self.speedy
 		if self.hp < 0:
@@ -298,18 +303,27 @@ class Penguin(pygame.sprite.Sprite):
 			self.rect.top = 200
 		if self.rect.bottom > 600:
 			self.rect.bottom = 600
-		if counter1:
-			if anow % 4 == 0:
-				counter1 = False
+		if self.counter1:
+			self.counter1 = False
+			self.counter2 = True
+			self.a = randint(1000,3000)
+			self.b = randint(1000,3000)
+			self.start_time = pygame.time.get_ticks()
+
+		elif self.counter2:
+			if elapsed_time >= self.a:
+				self.counter2 = False
 				self.speedx = random.choice(alist)
 				self.speedy = random.choice(alist)
-				counter2 = True
-		if counter2:
-			if anow % 10 == 0:
-				counter2 = False
+				self.counter3 = True
+				self.start_time = pygame.time.get_ticks()
+		elif self.counter3:
+			if elapsed_time >= self.b:
+				self.counter3 = False
 				self.speedx = 0
 				self.speedy = 0
-				counter2 = True
+				self.counter1 = True
+				self.start_time = pygame.time.get_ticks()
 
 class Penguin1(Penguin):
 	def __init__(self):
