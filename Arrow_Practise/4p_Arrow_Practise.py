@@ -790,118 +790,137 @@ while running:
 	all_sprites.update()
 
 	# Checar colisiones - penguin1 - arrow
-	hits = pygame.sprite.spritecollide(penguin1, arrows, True)
-	for hit in hits:
-		if penguin1.hp > 0:
-			penguin1.hp -= 20
-					
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin1, arrow):
+			if penguin1.hp > 0:
+				penguin1.hp -= 20
+				arrow.kill()
+
 	# Checar colisiones - penguin2 - arrow
-	hits = pygame.sprite.spritecollide(penguin2, arrows, True)
-	for hit in hits:
-		if penguin2.hp > 0:
-			penguin2.hp -= 20
-					
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin2, arrow):
+			if penguin2.hp > 0:
+				penguin2.hp -= 20
+				arrow.kill()
+		
 	# Checar colisiones - penguin3 - arrow
-	hits = pygame.sprite.spritecollide(penguin3, arrows, True)
-	for hit in hits:
-		if penguin3.hp > 0:
-			penguin3.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin3, arrow):
+			if penguin3.hp > 0:
+				penguin3.hp -= 20
+				arrow.kill()
 		
 	# Checar colisiones - penguin4 - arrow
-	hits = pygame.sprite.spritecollide(penguin4, arrows, True)
-	for hit in hits:
-		if penguin4.hp > 0:
-			penguin4.hp -= 20
-		
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin4, arrow):
+			if penguin4.hp > 0:
+				penguin4.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin5 - arrow
-	hits = pygame.sprite.spritecollide(penguin5, arrows, True)
-	for hit in hits:
-		if penguin5.hp > 0:
-			penguin5.hp -= 20
-				
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin5, arrow):
+			if penguin5.hp > 0:
+				penguin5.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin6 - arrow
-	hits = pygame.sprite.spritecollide(penguin6, arrows, True)
-	for hit in hits:
-		if penguin6.hp > 0:
-			penguin6.hp -= 20
-				
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin6, arrow):
+			if penguin6.hp > 0:
+				penguin6.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin7 - arrow
-	hits = pygame.sprite.spritecollide(penguin7, arrows, True)
-	for hit in hits:
-		if penguin7.hp > 0:
-			penguin7.hp -= 20
-		
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin7, arrow):
+			if penguin7.hp > 0:
+				penguin7.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin8 - arrow
-	hits = pygame.sprite.spritecollide(penguin8, arrows, True)
-	for hit in hits:
-		if penguin8.hp > 0:
-			penguin8.hp -= 20
-		
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin8, arrow):
+			if penguin8.hp > 0:
+				penguin8.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin9 - arrow
-	hits = pygame.sprite.spritecollide(penguin9, arrows, True)
-	for hit in hits:
-		if penguin9.hp > 0:
-			penguin9.hp -= 20
-		
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin9, arrow):
+			if penguin9.hp > 0:
+				penguin9.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin10 - arrow
-	hits = pygame.sprite.spritecollide(penguin10, arrows, True)
-	for hit in hits:
-		if penguin10.hp > 0:
-			penguin10.hp -= 20
-
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin10, arrow):
+			if penguin10.hp > 0:
+				penguin10.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin11 - arrow
-	hits = pygame.sprite.spritecollide(penguin11, arrows, True)
-	for hit in hits:
-		if penguin11.hp > 0:
-			penguin11.hp -= 20
-
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin11, arrow):
+			if penguin11.hp > 0:
+				penguin11.hp -= 20
+				arrow.kill()
+	
 	# Checar colisiones - penguin12- arrow
-	hits = pygame.sprite.spritecollide(penguin12, arrows, True)
-	for hit in hits:
-		if penguin12.hp > 0:
-			penguin12.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin12, arrow):
+			if penguin12.hp > 0:
+				penguin12.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin13 - arrow
-	hits = pygame.sprite.spritecollide(penguin13, arrows, True)
-	for hit in hits:
-		if penguin13.hp > 0:
-			penguin13.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin13, arrow):
+			if penguin13.hp > 0:
+				penguin13.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin14 - arrow
-	hits = pygame.sprite.spritecollide(penguin14, arrows, True)
-	for hit in hits:
-		if penguin14.hp > 0:
-			penguin14.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin14, arrow):
+			if penguin14.hp > 0:
+				penguin14.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin15 - arrow
-	hits = pygame.sprite.spritecollide(penguin15, arrows, True)
-	for hit in hits:
-		if penguin15.hp > 0:
-			penguin15.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin15, arrow):
+			if penguin15.hp > 0:
+				penguin15.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin16 - arrow
-	hits = pygame.sprite.spritecollide(penguin16, arrows, True)
-	for hit in hits:
-		if penguin16.hp > 0:
-			penguin16.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin16, arrow):
+			if penguin16.hp > 0:
+				penguin16.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin17 - arrow
-	hits = pygame.sprite.spritecollide(penguin17, arrows, True)
-	for hit in hits:
-		if penguin17.hp > 0:
-			penguin17.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin17, arrow):
+			if penguin17.hp > 0:
+				penguin17.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin18 - arrow
-	hits = pygame.sprite.spritecollide(penguin18, arrows, True)
-	for hit in hits:
-		if penguin18.hp > 0:
-			penguin18.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin18, arrow):
+			if penguin18.hp > 0:
+				penguin18.hp -= 20
+				arrow.kill()
 
 	# Checar colisiones - penguin19 - arrow
-	hits = pygame.sprite.spritecollide(penguin19, arrows, True)
-	for hit in hits:
-		if penguin19.hp > 0:
-			penguin19.hp -= 20
+	for arrow in arrows:
+		if pygame.sprite.collide_rect(penguin19, arrow):
+			if penguin19.hp > 0:
+				penguin19.hp -= 20
+				arrow.kill()
 		
 	# Checar colisiones - bell1 - arrow1
 	hits = pygame.sprite.spritecollide(bell1, arrows1, True)
