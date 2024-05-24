@@ -461,28 +461,9 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin()
-		penguin2 = Penguin()
-		penguin3 = Penguin()
-		penguin4 = Penguin()
-		penguin5 = Penguin()
-		penguin6 = Penguin()
-		penguin7 = Penguin()
-		penguin8 = Penguin()
-		penguin9 = Penguin()
-		penguin10 = Penguin()
-		penguin11 = Penguin()
-		penguin12 = Penguin()
-		penguin13 = Penguin()
-		penguin14 = Penguin()
-		penguin15 = Penguin()
-		penguin16 = Penguin()
-		penguin17 = Penguin()
-		penguin18 = Penguin()
-		penguin19 = Penguin()
-		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
-		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
-		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
+		penguins = [Penguin() for _ in range(20)]
+
+		all_sprites.add(*penguins)
 		player1 = Player1()
 		player2 = Player2()
 		player3 = Player3()
@@ -507,28 +488,9 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin()
-		penguin2 = Penguin()
-		penguin3 = Penguin()
-		penguin4 = Penguin()
-		penguin5 = Penguin()
-		penguin6 = Penguin()
-		penguin7 = Penguin()
-		penguin8 = Penguin()
-		penguin9 = Penguin()
-		penguin10 = Penguin()
-		penguin11 = Penguin()
-		penguin12 = Penguin()
-		penguin13 = Penguin()
-		penguin14 = Penguin()
-		penguin15 = Penguin()
-		penguin16 = Penguin()
-		penguin17 = Penguin()
-		penguin18 = Penguin()
-		penguin19 = Penguin()
-		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
-		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
-		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
+		penguins = [Penguin() for _ in range(20)]
+
+		all_sprites.add(*penguins)
 		player1 = Player1()
 		player2 = Player2()
 		player3 = Player3()
@@ -553,28 +515,9 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin()
-		penguin2 = Penguin()
-		penguin3 = Penguin()
-		penguin4 = Penguin()
-		penguin5 = Penguin()
-		penguin6 = Penguin()
-		penguin7 = Penguin()
-		penguin8 = Penguin()
-		penguin9 = Penguin()
-		penguin10 = Penguin()
-		penguin11 = Penguin()
-		penguin12 = Penguin()
-		penguin13 = Penguin()
-		penguin14 = Penguin()
-		penguin15 = Penguin()
-		penguin16 = Penguin()
-		penguin17 = Penguin()
-		penguin18 = Penguin()
-		penguin19 = Penguin()
-		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
-		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
-		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
+		penguins = [Penguin() for _ in range(20)]
+
+		all_sprites.add(*penguins)
 		player1 = Player1()
 		player2 = Player2()
 		player3 = Player3()
@@ -599,28 +542,9 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin()
-		penguin2 = Penguin()
-		penguin3 = Penguin()
-		penguin4 = Penguin()
-		penguin5 = Penguin()
-		penguin6 = Penguin()
-		penguin7 = Penguin()
-		penguin8 = Penguin()
-		penguin9 = Penguin()
-		penguin10 = Penguin()
-		penguin11 = Penguin()
-		penguin12 = Penguin()
-		penguin13 = Penguin()
-		penguin14 = Penguin()
-		penguin15 = Penguin()
-		penguin16 = Penguin()
-		penguin17 = Penguin()
-		penguin18 = Penguin()
-		penguin19 = Penguin()
-		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
-		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
-		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
+		penguins = [Penguin() for _ in range(20)]
+
+		all_sprites.add(*penguins)
 		player1 = Player1()
 		player2 = Player2()
 		player3 = Player3()
@@ -646,28 +570,9 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin()
-		penguin2 = Penguin()
-		penguin3 = Penguin()
-		penguin4 = Penguin()
-		penguin5 = Penguin()
-		penguin6 = Penguin()
-		penguin7 = Penguin()
-		penguin8 = Penguin()
-		penguin9 = Penguin()
-		penguin10 = Penguin()
-		penguin11 = Penguin()
-		penguin12 = Penguin()
-		penguin13 = Penguin()
-		penguin14 = Penguin()
-		penguin15 = Penguin()
-		penguin16 = Penguin()
-		penguin17 = Penguin()
-		penguin18 = Penguin()
-		penguin19 = Penguin()
-		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
-		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
-		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
+		penguins = [Penguin() for _ in range(20)]
+
+		all_sprites.add(*penguins)
 		player1 = Player1()
 		player2 = Player2()
 		player3 = Player3()
@@ -709,137 +614,12 @@ while running:
 	all_sprites.update()
 
 	# Checar colisiones - penguin1 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin1, arrow):
-			if penguin1.hp > 0:
-				penguin1.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin2 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin2, arrow):
-			if penguin2.hp > 0:
-				penguin2.hp -= 20
-				arrow.kill()
-		
-	# Checar colisiones - penguin3 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin3, arrow):
-			if penguin3.hp > 0:
-				penguin3.hp -= 20
-				arrow.kill()
-		
-	# Checar colisiones - penguin4 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin4, arrow):
-			if penguin4.hp > 0:
-				penguin4.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin5 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin5, arrow):
-			if penguin5.hp > 0:
-				penguin5.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin6 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin6, arrow):
-			if penguin6.hp > 0:
-				penguin6.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin7 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin7, arrow):
-			if penguin7.hp > 0:
-				penguin7.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin8 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin8, arrow):
-			if penguin8.hp > 0:
-				penguin8.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin9 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin9, arrow):
-			if penguin9.hp > 0:
-				penguin9.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin10 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin10, arrow):
-			if penguin10.hp > 0:
-				penguin10.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin11 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin11, arrow):
-			if penguin11.hp > 0:
-				penguin11.hp -= 20
-				arrow.kill()
-	
-	# Checar colisiones - penguin12- arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin12, arrow):
-			if penguin12.hp > 0:
-				penguin12.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin13 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin13, arrow):
-			if penguin13.hp > 0:
-				penguin13.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin14 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin14, arrow):
-			if penguin14.hp > 0:
-				penguin14.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin15 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin15, arrow):
-			if penguin15.hp > 0:
-				penguin15.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin16 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin16, arrow):
-			if penguin16.hp > 0:
-				penguin16.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin17 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin17, arrow):
-			if penguin17.hp > 0:
-				penguin17.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin18 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin18, arrow):
-			if penguin18.hp > 0:
-				penguin18.hp -= 20
-				arrow.kill()
-
-	# Checar colisiones - penguin19 - arrow
-	for arrow in arrows:
-		if pygame.sprite.collide_rect(penguin19, arrow):
-			if penguin19.hp > 0:
-				penguin19.hp -= 20
-				arrow.kill()
+	for penguin in penguins:
+		for arrow in arrows:
+			if pygame.sprite.collide_rect(penguin, arrow):
+				if penguin.hp > 0:
+					penguin.hp -= 20
+					arrow.kill()
 		
 	# Checar colisiones - bell1 - arrow1
 	hits = pygame.sprite.spritecollide(bell1, arrows1, True)
@@ -926,45 +706,10 @@ while running:
 	draw_hp_bar(screen, 1015, 5, player4.hp)
 	draw_text2(screen, str(int(player4.hp))+ "/100", 10, 1070, 6)
 
-	if penguin1.hp > 0:
-		draw_hp_bar2(screen, penguin1.rect.x, penguin1.rect.y, penguin1.hp)
-	if penguin2.hp > 0:
-		draw_hp_bar2(screen, penguin2.rect.x, penguin2.rect.y, penguin2.hp)
-	if penguin3.hp > 0:
-		draw_hp_bar2(screen, penguin3.rect.x, penguin3.rect.y, penguin3.hp)
-	if penguin4.hp > 0:
-		draw_hp_bar2(screen, penguin4.rect.x, penguin4.rect.y, penguin4.hp)
-	if penguin5.hp > 0:
-		draw_hp_bar2(screen, penguin5.rect.x, penguin5.rect.y, penguin5.hp)
-	if penguin6.hp > 0:
-		draw_hp_bar2(screen, penguin6.rect.x, penguin6.rect.y, penguin6.hp)
-	if penguin7.hp > 0:
-		draw_hp_bar2(screen, penguin7.rect.x, penguin7.rect.y, penguin7.hp)
-	if penguin8.hp > 0:
-		draw_hp_bar2(screen, penguin8.rect.x, penguin8.rect.y, penguin8.hp)
-	if penguin9.hp > 0:
-		draw_hp_bar2(screen, penguin9.rect.x, penguin9.rect.y, penguin9.hp)
-	if penguin10.hp > 0:
-		draw_hp_bar2(screen, penguin10.rect.x, penguin10.rect.y, penguin10.hp)
-	if penguin11.hp > 0:
-		draw_hp_bar2(screen, penguin11.rect.x, penguin11.rect.y, penguin11.hp)
-	if penguin12.hp > 0:
-		draw_hp_bar2(screen, penguin12.rect.x, penguin12.rect.y, penguin12.hp)
-	if penguin13.hp > 0:
-		draw_hp_bar2(screen, penguin13.rect.x, penguin13.rect.y, penguin13.hp)
-	if penguin14.hp > 0:
-		draw_hp_bar2(screen, penguin14.rect.x, penguin14.rect.y, penguin14.hp)
-	if penguin15.hp > 0:
-		draw_hp_bar2(screen, penguin15.rect.x, penguin15.rect.y, penguin15.hp)
-	if penguin16.hp > 0:
-		draw_hp_bar2(screen, penguin16.rect.x, penguin16.rect.y, penguin16.hp)
-	if penguin17.hp > 0:
-		draw_hp_bar2(screen, penguin17.rect.x, penguin17.rect.y, penguin17.hp)
-	if penguin18.hp > 0:
-		draw_hp_bar2(screen, penguin18.rect.x, penguin18.rect.y, penguin18.hp)
-	if penguin19.hp > 0:
-		draw_hp_bar2(screen, penguin19.rect.x, penguin19.rect.y, penguin19.hp)
-	
+	for penguin in penguins:
+		if penguin.hp > 0:
+			draw_hp_bar2(screen, penguin.rect.x, penguin.rect.y, penguin.hp)
+
 	#reloj
 	draw_text1(screen, str((((pygame.time.get_ticks() - start_time)//60000)+(60))%(60))+":" + str((((pygame.time.get_ticks() - start_time)//1000)+(60))%(60)), 30, 570, 50)
 		
