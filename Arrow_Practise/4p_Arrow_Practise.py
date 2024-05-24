@@ -325,87 +325,6 @@ class Penguin(pygame.sprite.Sprite):
 				self.counter1 = True
 				self.start_time = pygame.time.get_ticks()
 
-class Penguin1(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin2(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin3(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin4(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin5(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin6(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin7(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin8(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin9(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin10(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin11(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin12(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin13(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin14(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin15(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin16(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin17(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin18(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin19(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-class Penguin20(Penguin):
-	def __init__(self):
-		super().__init__()
-		
-
 class Bell1(pygame.sprite.Sprite):
 	def __init__(self):
 		super().__init__()
@@ -542,25 +461,25 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin1()
-		penguin2 = Penguin2()
-		penguin3 = Penguin3()
-		penguin4 = Penguin4()
-		penguin5 = Penguin5()
-		penguin6 = Penguin6()
-		penguin7 = Penguin7()
-		penguin8 = Penguin8()
-		penguin9 = Penguin9()
-		penguin10 = Penguin10()
-		penguin11 = Penguin11()
-		penguin12 = Penguin12()
-		penguin13 = Penguin13()
-		penguin14 = Penguin14()
-		penguin15 = Penguin15()
-		penguin16 = Penguin16()
-		penguin17 = Penguin17()
-		penguin18 = Penguin18()
-		penguin19 = Penguin19()
+		penguin1 = Penguin()
+		penguin2 = Penguin()
+		penguin3 = Penguin()
+		penguin4 = Penguin()
+		penguin5 = Penguin()
+		penguin6 = Penguin()
+		penguin7 = Penguin()
+		penguin8 = Penguin()
+		penguin9 = Penguin()
+		penguin10 = Penguin()
+		penguin11 = Penguin()
+		penguin12 = Penguin()
+		penguin13 = Penguin()
+		penguin14 = Penguin()
+		penguin15 = Penguin()
+		penguin16 = Penguin()
+		penguin17 = Penguin()
+		penguin18 = Penguin()
+		penguin19 = Penguin()
 		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
 		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
 		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
@@ -588,25 +507,25 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin1()
-		penguin2 = Penguin2()
-		penguin3 = Penguin3()
-		penguin4 = Penguin4()
-		penguin5 = Penguin5()
-		penguin6 = Penguin6()
-		penguin7 = Penguin7()
-		penguin8 = Penguin8()
-		penguin9 = Penguin9()
-		penguin10 = Penguin10()
-		penguin11 = Penguin11()
-		penguin12 = Penguin12()
-		penguin13 = Penguin13()
-		penguin14 = Penguin14()
-		penguin15 = Penguin15()
-		penguin16 = Penguin16()
-		penguin17 = Penguin17()
-		penguin18 = Penguin18()
-		penguin19 = Penguin19()
+		penguin1 = Penguin()
+		penguin2 = Penguin()
+		penguin3 = Penguin()
+		penguin4 = Penguin()
+		penguin5 = Penguin()
+		penguin6 = Penguin()
+		penguin7 = Penguin()
+		penguin8 = Penguin()
+		penguin9 = Penguin()
+		penguin10 = Penguin()
+		penguin11 = Penguin()
+		penguin12 = Penguin()
+		penguin13 = Penguin()
+		penguin14 = Penguin()
+		penguin15 = Penguin()
+		penguin16 = Penguin()
+		penguin17 = Penguin()
+		penguin18 = Penguin()
+		penguin19 = Penguin()
 		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
 		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
 		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
@@ -634,25 +553,25 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin1()
-		penguin2 = Penguin2()
-		penguin3 = Penguin3()
-		penguin4 = Penguin4()
-		penguin5 = Penguin5()
-		penguin6 = Penguin6()
-		penguin7 = Penguin7()
-		penguin8 = Penguin8()
-		penguin9 = Penguin9()
-		penguin10 = Penguin10()
-		penguin11 = Penguin11()
-		penguin12 = Penguin12()
-		penguin13 = Penguin13()
-		penguin14 = Penguin14()
-		penguin15 = Penguin15()
-		penguin16 = Penguin16()
-		penguin17 = Penguin17()
-		penguin18 = Penguin18()
-		penguin19 = Penguin19()
+		penguin1 = Penguin()
+		penguin2 = Penguin()
+		penguin3 = Penguin()
+		penguin4 = Penguin()
+		penguin5 = Penguin()
+		penguin6 = Penguin()
+		penguin7 = Penguin()
+		penguin8 = Penguin()
+		penguin9 = Penguin()
+		penguin10 = Penguin()
+		penguin11 = Penguin()
+		penguin12 = Penguin()
+		penguin13 = Penguin()
+		penguin14 = Penguin()
+		penguin15 = Penguin()
+		penguin16 = Penguin()
+		penguin17 = Penguin()
+		penguin18 = Penguin()
+		penguin19 = Penguin()
 		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
 		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
 		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
@@ -680,25 +599,25 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin1()
-		penguin2 = Penguin2()
-		penguin3 = Penguin3()
-		penguin4 = Penguin4()
-		penguin5 = Penguin5()
-		penguin6 = Penguin6()
-		penguin7 = Penguin7()
-		penguin8 = Penguin8()
-		penguin9 = Penguin9()
-		penguin10 = Penguin10()
-		penguin11 = Penguin11()
-		penguin12 = Penguin12()
-		penguin13 = Penguin13()
-		penguin14 = Penguin14()
-		penguin15 = Penguin15()
-		penguin16 = Penguin16()
-		penguin17 = Penguin17()
-		penguin18 = Penguin18()
-		penguin19 = Penguin19()
+		penguin1 = Penguin()
+		penguin2 = Penguin()
+		penguin3 = Penguin()
+		penguin4 = Penguin()
+		penguin5 = Penguin()
+		penguin6 = Penguin()
+		penguin7 = Penguin()
+		penguin8 = Penguin()
+		penguin9 = Penguin()
+		penguin10 = Penguin()
+		penguin11 = Penguin()
+		penguin12 = Penguin()
+		penguin13 = Penguin()
+		penguin14 = Penguin()
+		penguin15 = Penguin()
+		penguin16 = Penguin()
+		penguin17 = Penguin()
+		penguin18 = Penguin()
+		penguin19 = Penguin()
 		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
 		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
 		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
@@ -727,25 +646,25 @@ while running:
 		bell2 = Bell2()
 		bell3 = Bell3()
 		all_sprites.add(bell1, bell2, bell3)
-		penguin1 = Penguin1()
-		penguin2 = Penguin2()
-		penguin3 = Penguin3()
-		penguin4 = Penguin4()
-		penguin5 = Penguin5()
-		penguin6 = Penguin6()
-		penguin7 = Penguin7()
-		penguin8 = Penguin8()
-		penguin9 = Penguin9()
-		penguin10 = Penguin10()
-		penguin11 = Penguin11()
-		penguin12 = Penguin12()
-		penguin13 = Penguin13()
-		penguin14 = Penguin14()
-		penguin15 = Penguin15()
-		penguin16 = Penguin16()
-		penguin17 = Penguin17()
-		penguin18 = Penguin18()
-		penguin19 = Penguin19()
+		penguin1 = Penguin()
+		penguin2 = Penguin()
+		penguin3 = Penguin()
+		penguin4 = Penguin()
+		penguin5 = Penguin()
+		penguin6 = Penguin()
+		penguin7 = Penguin()
+		penguin8 = Penguin()
+		penguin9 = Penguin()
+		penguin10 = Penguin()
+		penguin11 = Penguin()
+		penguin12 = Penguin()
+		penguin13 = Penguin()
+		penguin14 = Penguin()
+		penguin15 = Penguin()
+		penguin16 = Penguin()
+		penguin17 = Penguin()
+		penguin18 = Penguin()
+		penguin19 = Penguin()
 		all_sprites.add(penguin1, penguin2, penguin3, penguin4, penguin5, penguin6, 
 		penguin7, penguin8, penguin9, penguin10, penguin11, penguin12, penguin13, 
 		penguin14, penguin15, penguin16, penguin17, penguin18, penguin19)
