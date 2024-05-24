@@ -472,7 +472,6 @@ while running:
 		
 		start_time = pygame.time.get_ticks()
 		
-
 	if game_over2:
 		show_game_over_screenp2()
 				
@@ -499,7 +498,6 @@ while running:
 		
 		start_time = pygame.time.get_ticks()
 		
-
 	if game_over3:
 		show_game_over_screenp3()
 				
@@ -526,7 +524,6 @@ while running:
 		
 		start_time = pygame.time.get_ticks()
 		
-
 	if game_over4:
 		show_game_over_screenp4()
 				
@@ -553,7 +550,6 @@ while running:
 		
 		start_time = pygame.time.get_ticks()
 		
-
 	if start:
 		show_go_screen()
 		
@@ -681,9 +677,6 @@ while running:
 	for hit in hits:
 		game_over4 = True
 
-
-	
-		
 	screen.blit(background, [0, 0])
 
 	all_sprites.draw(screen)
