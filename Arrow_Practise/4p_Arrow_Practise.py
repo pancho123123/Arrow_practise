@@ -79,21 +79,7 @@ class Player(pygame.sprite.Sprite):
 		self.speed_x = 0
 		self.speed_y = 0
 		self.hp = 100
-		self.counter = True
-
-	def update(self):
-		self.speed_x = 0
-		self.speed_y = 0
-		self.rect.x += self.speed_x
-		self.rect.y += self.speed_y
-		if self.rect.right > 100:
-			self.rect.right = 100
-		if self.rect.left < 0:
-			self.rect.left = 0
-		if self.rect.top < 50:
-			self.rect.top = 50
-		if self.rect.bottom > 550:
-			self.rect.bottom = 550
+		self.last_shoot = 0
 
 
 class Player1(Player):
@@ -126,10 +112,12 @@ class Player1(Player):
 			self.rect.bottom = 550
 
 	def shoot(self):
-		arrow1 = Arrow1(self.rect.right, self.rect.centery)
-		all_sprites.add(arrow1)
-		arrows.add(arrow1)
-		arrows1.add(arrow1)
+		if pygame.time.get_ticks() - self.last_shoot >= 4000:
+			self.last_shoot = pygame.time.get_ticks()
+			arrow1 = Arrow1(self.rect.right, self.rect.centery)
+			all_sprites.add(arrow1)
+			arrows.add(arrow1)
+			arrows1.add(arrow1)
 
 class Player2(Player):
 	def __init__(self):
@@ -161,10 +149,12 @@ class Player2(Player):
 			self.rect.bottom = 550
 
 	def shoot(self):
-		arrow2 = Arrow2(self.rect.right, self.rect.centery)
-		all_sprites.add(arrow2)
-		arrows.add(arrow2)
-		arrows2.add(arrow2)
+		if pygame.time.get_ticks() - self.last_shoot >= 4000:
+			self.last_shoot = pygame.time.get_ticks()
+			arrow2 = Arrow2(self.rect.right, self.rect.centery)
+			all_sprites.add(arrow2)
+			arrows.add(arrow2)
+			arrows2.add(arrow2)
 
 class Player3(Player):
 	def __init__(self):
@@ -196,10 +186,12 @@ class Player3(Player):
 			self.rect.bottom = 550
 
 	def shoot(self):
-		arrow3 = Arrow3(self.rect.right, self.rect.centery)
-		all_sprites.add(arrow3)
-		arrows.add(arrow3)
-		arrows3.add(arrow3)
+		if pygame.time.get_ticks() - self.last_shoot >= 4000:
+			self.last_shoot = pygame.time.get_ticks()
+			arrow3 = Arrow3(self.rect.right, self.rect.centery)
+			all_sprites.add(arrow3)
+			arrows.add(arrow3)
+			arrows3.add(arrow3)
 
 class Player4(Player):
 	def __init__(self):
@@ -231,10 +223,12 @@ class Player4(Player):
 			self.rect.bottom = 550
 
 	def shoot(self):
-		arrow4 = Arrow4(self.rect.right, self.rect.centery)
-		all_sprites.add(arrow4)
-		arrows.add(arrow4)
-		arrows4.add(arrow4)
+		if pygame.time.get_ticks() - self.last_shoot >= 4000:
+			self.last_shoot = pygame.time.get_ticks()
+			arrow4 = Arrow4(self.rect.right, self.rect.centery)
+			all_sprites.add(arrow4)
+			arrows.add(arrow4)
+			arrows4.add(arrow4)
 
 class Arrow(pygame.sprite.Sprite):
 	def __init__(self, x, y):
@@ -271,7 +265,7 @@ class Penguin(pygame.sprite.Sprite):
 	def __init__(self):
 		super().__init__()
 		self.image = pygame.transform.scale(pygame.image.load("img/penguin.png").convert(),(65,65))
-		self.image.set_colorkey(BLACK)
+		self.image.set_colorkey(WHITE)
 		self.rect = self.image.get_rect()
 		self.rect.x = random.randrange(300,1000)
 		self.rect.y = random.randrange(200,650)
@@ -586,24 +580,19 @@ while running:
 
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_e:
-				if len(arrows1) == 0:
-					player1.shoot()
+				player1.shoot()
 
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_p:
-				if len(arrows2) == 0:
-					player2.shoot()
+				player2.shoot()
 
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_y:
-				if len(arrows3) == 0:
-					player3.shoot()
+				player3.shoot()
 
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_o:
-				if len(arrows4) == 0:
-					player4.shoot()
-
+				player4.shoot()
 		
 	now = (pygame.time.get_ticks() - start_time)//1000
 		
